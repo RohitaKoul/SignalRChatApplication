@@ -288,6 +288,7 @@ namespace SignalRChatApplication.Controllers
             ViewBag.ProviderDisplayName = OAuthWebSecurity.GetOAuthClientData(provider).DisplayName;
             ViewBag.ReturnUrl = returnUrl;
             return View(model);
+
         }
 
         //
